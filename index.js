@@ -12,6 +12,6 @@ function destructivelyAppendKitten (element){
   }
   
   function destructivelyRemoveFirstKitten(){
-    kitten.unshift();
+    kitten.unshift(1);
     
   }
