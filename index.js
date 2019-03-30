@@ -40,6 +40,12 @@ function destructivelyAppendKitten (element){
     
   }
   
+  function removeFirstKitten (){
+    var newarray=[];
+    newarray=kittens;
+    newarray.shift();
+  }
+  
   
   
   
