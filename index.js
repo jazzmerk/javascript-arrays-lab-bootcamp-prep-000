@@ -25,7 +25,7 @@ function destructivelyAppendKitten (element){
       return (newarray);
   }
   
-  function PrependKitten(element){
+  function prependKitten(element){
   var temparray=[element];
   var newarray=temparray.concat(kittens);
   return (temparray);
