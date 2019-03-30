@@ -35,8 +35,8 @@ function destructivelyAppendKitten (element){
   function removeLastKitten(){
   var newarray=[];
   newarray=kittens;
-  newarray=newarray.slice(length-1,length);
-    return (newarray);
+  newarray=newarray.slice(-1);
+  return (newarray);
     
   }
   
