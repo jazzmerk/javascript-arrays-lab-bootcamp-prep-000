@@ -20,7 +20,7 @@ function destructivelyAppendKitten (element){
   }
   
   function appendKitten(element){
-    var newarray=[element];
+    var newarray=[];
     newarray.push(element);
     return (newarray);
   }
