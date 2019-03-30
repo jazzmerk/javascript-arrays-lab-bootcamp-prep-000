@@ -20,8 +20,8 @@ function destructivelyAppendKitten (element){
   }
   
   function appendKitten(element){
-    var newarray=[];
-    newarray=kittens.push(element);
+    var newarray=kittens;
+    newarray.push(element);
     return (newarray);
   }
   
