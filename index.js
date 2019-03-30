@@ -18,3 +18,11 @@ function destructivelyAppendKitten (element){
   function destructivelyRemoveLastKitten(){  
     kittens.pop();
   }
+  
+  function appendKitten(element){
+    var newarray=[];
+    newarray=kittens.push(element);
+    return (newarray);
+  }
+  
+  
