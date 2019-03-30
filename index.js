@@ -21,7 +21,7 @@ function destructivelyAppendKitten (element){
   
   function appendKitten(element){
     var newarray=[];
-    newarray.push(element);
+    newarray=concat.kittens(element);
     return (newarray);
   }
   
