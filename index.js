@@ -29,6 +29,8 @@ function destructivelyAppendKitten (element){
   var temparray=[element];
   var newarray=temparray.concat(kittens);
   return (newarray);
+  }
+  
   
   function removeLastKitten(){
   var newarray=[];
