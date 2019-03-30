@@ -44,6 +44,7 @@ function destructivelyAppendKitten (element){
     var newarray=[];
     newarray=kittens;
     newarray.shift();
+    return (newarray);
   }
   
   
