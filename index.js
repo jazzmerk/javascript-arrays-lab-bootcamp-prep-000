@@ -10,3 +10,8 @@ function destructivelyAppendKitten (element){
   kittens.unshift(element);
   
   }
+  
+  destructivelyRemoveFirstKitten(){
+    kitten.unshift();
+    
+  }
